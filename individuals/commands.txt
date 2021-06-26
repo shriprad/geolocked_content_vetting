@@ -1,0 +1,3 @@
+echo ExitNodes "{br}" | sudo tee -a /etc/tor/torrc
+
+torsocks curl ipinfo.io/country
